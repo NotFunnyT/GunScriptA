@@ -1,7 +1,7 @@
---// Converted to lua by Ivy, Gun Script Made by Alice and NotFunny <3
+--// Converted by Ivy and Alice <3
 local Players            = game:GetService("Players")
 local ReplicatedStorage  = game:GetService("ReplicatedStorage")
-local RunService         = game:GetService("RunService")`
+local RunService         = game:GetService("RunService")
 local StarterGui         = game:GetService("StarterGui")
 
 local LocalPlayer = Players.LocalPlayer
@@ -7594,7 +7594,6 @@ localPlayer.PlayerGui.Inventory.RELOAD.MouseButton1Click:Connect(function ()
 	end)
 end)
 
-
 task.spawn(function()
 	while true do
 		if mouse.Target then
@@ -9294,7 +9293,6 @@ task.spawn(function()
 		StatusHide()
 	end
 end)
-
 -- -- -- 
 local Credits = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
