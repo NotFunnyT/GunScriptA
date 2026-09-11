@@ -1,4 +1,4 @@
---// Converted by Ivy and Alice <3
+--// Convertd By Ivy, Made By Aice And NotFunny
 local Players            = game:GetService("Players")
 local ReplicatedStorage  = game:GetService("ReplicatedStorage")
 local RunService         = game:GetService("RunService")
@@ -9293,6 +9293,7 @@ task.spawn(function()
 		StatusHide()
 	end
 end)
+
 -- -- -- 
 local Credits = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
